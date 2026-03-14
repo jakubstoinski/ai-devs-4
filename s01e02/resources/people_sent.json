@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Cezary",
+    "surname": "Żurek",
+    "gender": "M",
+    "born": 1987,
+    "city": "Grudziądz",
+    "tags": [
+      "transport",
+      "praca z ludźmi"
+    ]
+  },
+  {
+    "name": "Jacek",
+    "surname": "Nowak",
+    "gender": "M",
+    "born": 1991,
+    "city": "Grudziądz",
+    "tags": [
+      "transport",
+      "praca z ludźmi"
+    ]
+  },
+  {
+    "name": "Oskar",
+    "surname": "Sieradzki",
+    "gender": "M",
+    "born": 1993,
+    "city": "Grudziądz",
+    "tags": [
+      "transport",
+      "praca z ludźmi"
+    ]
+  },
+  {
+    "name": "Wojciech",
+    "surname": "Bielik",
+    "gender": "M",
+    "born": 1986,
+    "city": "Grudziądz",
+    "tags": [
+      "transport",
+      "praca z pojazdami"
+    ]
+  },
+  {
+    "name": "Wacław",
+    "surname": "Jasiński",
+    "gender": "M",
+    "born": 1986,
+    "city": "Grudziądz",
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "name": "Jolanta",
+    "surname": "Kornatowska",
+    "gender": "F",
+    "born": 1993,
+    "city": "Grudziądz",
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "name": "Patrycja",
+    "surname": "Kruk",
+    "gender": "F",
+    "born": 1986,
+    "city": "Grudziądz",
+    "tags": [
+      "transport"
+    ]
+  },
+  {
+    "name": "Zofia",
+    "surname": "Kucharska",
+    "gender": "F",
+    "born": 1992,
+    "city": "Grudziądz",
+    "tags": [
+      "transport"
+    ]
+  }
+]
