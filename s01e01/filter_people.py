@@ -1,6 +1,7 @@
 import csv
 import sys
 import os
+import json
 from dotenv import load_dotenv
 from pydantic import BaseModel
 
@@ -110,3 +111,11 @@ print(f"\nTagging complete. Sending {len(answer)} records to central...\n")
 
 result = send_to_central("people", answer)
 print("Central response:", result)
+
+if result.get("code") == 0:
+    save_dir = os.path.join(os.path.dirname(__file__), "..", "s01e02", "resources")
+    os.makedirs(save_dir, exist_ok=True)
+    save_path = os.path.join(save_dir, "people_sent.json")
+    with open(save_path, "w", encoding="utf-8") as f:
+        json.dump(answer, f, ensure_ascii=False, indent=2)
+    print(f"Saved {len(answer)} records to {save_path}")
