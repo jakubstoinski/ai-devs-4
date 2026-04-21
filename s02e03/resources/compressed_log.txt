@@ -1,0 +1,54 @@
+[2026-04-20 06:02] [WARN] STMTURB12 pressure jitter.
+[2026-04-20 06:03] [WARN] ECCS8 thermal drift advisory.
+[2026-04-20 06:04] [CRIT] ECCS8 runaway outlet temp. Reactor trip.
+[2026-04-20 06:04] [WARN] WTANK07 fill rate low.
+[2026-04-20 06:05] [ERRO] FIRMWARE validation fault. Constrained mode.
+[2026-04-20 06:05] [WARN] WTRPMP flow margin low.
+[2026-04-20 06:11] [WARN] PWR01 input ripple warning.
+[2026-04-20 06:14] [WARN] FIRMWARE watchdog delay.
+[2026-04-20 06:16] [CRIT] WSTPOOL2 heat rejection failed.
+[2026-04-20 06:30] [WARN] ECCS8 rising return temp.
+[2026-04-20 06:30] [WARN] WSTPOOL2 heat relay near cap.
+[2026-04-20 06:35] [ERRO] PWR01 transient, aux pump degraded.
+[2026-04-20 06:36] [ERRO] WTANK07 refill unstable.
+[2026-04-20 06:37] [ERRO] STMTURB12 correction budget exceeded.
+[2026-04-20 06:50] [WARN] WTRPMP duty cycle elevated.
+[2026-04-20 06:52] [WARN] WTANK07 sensor mismatch.
+[2026-04-20 07:24] [ERRO] WTRPMP suction inconsistent. Stress rising.
+[2026-04-20 07:31] [WARN] FIRMWARE startup trend anomaly.
+[2026-04-20 08:00] [CRIT] ECCS8 cooling gradient unsafe. Protective action.
+[2026-04-20 08:06] [ERRO] WSTPOOL2 heat path saturated.
+[2026-04-20 08:28] [ERRO] ECCS8 cooling efficiency below target.
+[2026-04-20 08:36] [ERRO] WTANK07 near minimum, refill timeout.
+[2026-04-20 09:06] [ERRO] ECCS8 return temp rising fast. Emergency bias armed.
+[2026-04-20 09:58] [ERRO] WTRPMP reported repeated cavitation signatures. Output pressure cannot be held at requested level.
+[2026-04-20 10:15] [CRIT] WTANK07 coolant critical. Hard trip.
+[2026-04-20 11:01] [CRIT] WTRPMP lost prime. Core loop disrupted.
+[2026-04-20 12:49] [WARN] WTANK07 advisory threshold crossed.
+[2026-04-20 12:51] [CRIT] FIRMWARE emergency guard. Override locked.
+[2026-04-20 12:56] [CRIT] STMTURB12 thermal decoupling. Energy terminated.
+[2026-04-20 13:37] [CRIT] PWR01 feed unstable. Load shedding.
+[2026-04-20 13:48] [WARN] PWR01 highly unstable under load.
+[2026-04-20 14:52] [CRIT] FIRMWARE missing SAFETY_CHECK=pass. Restricted mode.
+[2026-04-20 15:47] [WARN] WSTPOOL2 param drift.
+[2026-04-20 16:06] [CRIT] WSTPOOL2 critical protection state.
+[2026-04-20 16:07] [WARN] WTRPMP unstable readings.
+[2026-04-20 17:17] [ERRO] PWR01 recovery failed.
+[2026-04-20 18:00] [WARN] WTANK07 startup trend anomaly.
+[2026-04-20 18:06] [WARN] WTANK07 cooling reserve falling. ECCS8 near limit.
+[2026-04-20 18:08] [ERRO] ECCS8 thermal margin unrecoverable. WTANK07 partial.
+[2026-04-20 18:27] [ERRO] ECCS8 persistent fault.
+[2026-04-20 18:46] [WARN] ECCS8 param drift.
+[2026-04-20 19:13] [WARN] WTANK07 unstable readings.
+[2026-04-20 19:21] [ERRO] ECCS8 inconsistent feedback.
+[2026-04-20 19:46] [ERRO] WTANK07 below critical reserve.
+[2026-04-20 19:47] [ERRO] WTANK07 error budget exceeded.
+[2026-04-20 19:54] [CRIT] ECCS8 heat removal failed (WTANK07 low). Critical stop.
+[2026-04-20 20:02] [ERRO] WTANK07 recovery failed.
+[2026-04-20 20:05] [CRIT] ECCS8 critical boundary exceeded. Emergency interlock.
+[2026-04-20 20:14] [ERRO] WTANK07 persistent fault.
+[2026-04-20 20:32] [CRIT] WTANK07 inventory critical. ECCS8 shutdown mandatory.
+[2026-04-20 20:34] [ERRO] WTANK07 inconsistent feedback.
+[2026-04-20 20:59] [CRIT] WTANK07 refill incomplete. Reactor final shutdown.
+[2026-04-20 21:11] [ERRO] ECCS8 recovery step failed.
+[2026-04-20 21:37] [CRIT] WTANK07 low -> final trip. FIRMWARE: core halted.
