@@ -260,17 +260,16 @@ def main():
     time.sleep(0.3)
     print(f"Logs: {json.dumps(logs, ensure_ascii=False, indent=2)[:1000]}")
 
-    # Also check logs for person location
+    # Also check logs for person location — look for positive find messages
     if not person_found_at:
-        import re
+        positive_keywords = ["go mamy", "znaleziono człowieka", "partyzant", "człowiek",
+                             "mężczyzna", "kobieta", "survivor", "found him", "ocalały"]
         for entry in logs.get("logs", []):
-            entry_str = json.dumps(entry, ensure_ascii=False).lower()
-            if any(kw in entry_str for kw in ["person", "found", "człowiek", "partyzant", "human"]):
-                match = re.search(r'([A-K]\d+)', json.dumps(entry))
-                if match:
-                    person_found_at = match.group(1)
-                    print(f"Found from logs: {person_found_at}")
-                    break
+            msg = entry.get("msg", "").lower()
+            if any(kw in msg for kw in positive_keywords):
+                person_found_at = entry.get("field")
+                print(f"Found from logs: {person_found_at} (msg: {entry.get('msg')})")
+                break
 
     if person_found_at:
         print(f"\n=== Calling helicopter to {person_found_at} ===")
